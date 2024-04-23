@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -84,6 +84,7 @@ body {
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
@@ -124,4 +125,23 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+  display: flex;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
